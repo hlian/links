@@ -1,0 +1,4 @@
+**/*.lock -diff linguist-generated=true
+*/flow-typed/**/* -diff linguist-generated=true
+flow-typed/**/* -diff linguist-generated=true
+**/*.svg -diff linguist-generated=true

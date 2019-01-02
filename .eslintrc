@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "flowtype",
+    "react",
+    "import"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "16.7",
+      "flowVersion": "0.89"
+    }
+  },
+  "rules": {
+    "no-constant-condition": 0,
+    "react/prop-types": 0
+  }
+}

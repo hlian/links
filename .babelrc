@@ -1,0 +1,1 @@
+{"presets": ["@babel/preset-v"], "plugins": ["macros", "transform-inline-environment-variables"]}

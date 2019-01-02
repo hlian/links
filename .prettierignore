@@ -1,0 +1,6 @@
+**/dist/*
+flow-typed/*
+packages/backend/flow-typed/*
+packages/frontend/flow-typed/*
+node_modules/*
+**/.cache/*
