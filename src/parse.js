@@ -32,10 +32,8 @@ class Parse {
 
   parse(object: any): ?Attachment {
     const validated: any = runValidator(messageValidator, object);
-    logger.info(validated);
     if ('errors' in validated) {
       if (validated.errors.length && validated.errors[0].path === '<root>.message') {
-        logger.info(validated);
         // This message had no attachments, or was a private channel
         return null;
       } else {
